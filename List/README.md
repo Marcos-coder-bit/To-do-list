@@ -7,10 +7,66 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+✅ Todo List App:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Uma aplicação de lista de tarefas moderna e responsiva, construída com React 19 + Vite.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Funcionalidades:
+
+✔️ Adicionar novas tarefas
+
+🗑️ Remover tarefas concluídas
+
+🔍 Buscar tarefas por nome
+
+🎯 Filtrar por status (todas, ativas, concluídas)
+
+
+🛠️ Tecnologias:
+
+React 19
+Vite
+ESLint
+
+
+📦 Como rodar o projeto:
+bash# Clone o repositório
+
+git clone https://github.com/Marcos-coder-bit/todo-list-react.git
+
+# Entre na pasta
+cd todo-list-react
+
+# Instale as dependências
+npm install
+
+# Rode em modo desenvolvimento
+npm run dev
+Acesse em: http://localhost:5173
+
+📁 Estrutura de pastas:
+
+src/
+
+├── components/
+
+│   ├── Todo.jsx
+
+│   ├── TodoForm.jsx
+
+│   ├── Filter.jsx
+
+│   └── Search.jsx
+
+├── img/
+
+├── App.jsx
+
+├── App.css
+
+└── main.jsx
+
+📝 Licença:
+
+Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar.

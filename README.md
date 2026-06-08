@@ -23,7 +23,8 @@ ESLint
 
 📦 Como rodar o projeto:
 bash# Clone o repositório
-git clone https://github.com/seu-usuario/todo-list-react.git
+
+git clone https://github.com/Marcos-coder-bit/todo-list-react.git
 
 # Entre na pasta
 cd todo-list-react

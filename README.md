@@ -43,6 +43,7 @@ npm install
 
 # Rode em modo desenvolvimento
 npm run dev
+
 Acesse em: http://localhost:5173
 
 📁 Estrutura de pastas:
